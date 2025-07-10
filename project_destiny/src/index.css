@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    font-family: 'Mulish', sans-serif;
+    font-optical-sizing: auto;
+    overflow-x: hidden;
+}
+
+.slick-slide >div{
+    margin: 0 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+p{
+    font-weight: 200;
+    font-size:16px;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+span{
+    color: #FA6207;
+}

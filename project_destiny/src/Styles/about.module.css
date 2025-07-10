@@ -1,0 +1,388 @@
+.container{
+    padding: 6% 6%;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+ .hero::before {
+    content: "";
+    position: absolute;
+    top: -150px;
+    left: 47%;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/orangedot2.png") no-repeat center;
+    background-size:contain;
+    z-index: -10;
+    opacity: 0.3;
+    filter: blur(5px);
+    scale: 2.5;  
+  } 
+.commitment{
+    max-width: 50%;
+    text-align: left;
+}
+.commitment h1{
+    max-width: 100%;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+span{
+    color: #FA6207;
+}
+.commitment p{
+    font-size: 16px;
+    color: #040809;
+    font-weight: 400;
+}
+
+.imgcontainer{
+    max-width: 600px;
+    max-height:430px;
+}
+
+.imgcontainer img{
+    width: 100%;
+    height: 100%;
+    scale: 1.2;
+}
+
+.approch{
+   margin-bottom: 50px;
+   max-width: 50%;
+   text-align: left;
+   position: relative;
+}
+ .approch::before {
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: -5%;
+    width: 40%;
+    height: 150%;
+    background: url("../assets/orangedot2.png") no-repeat center ;
+    background-size:contain;
+    z-index: -10;
+    opacity: 0.3;
+    filter: blur(5px);
+    scale: 4.8;
+    transform: rotate(-180deg);
+  } 
+.approch h3{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.approch p{
+    font-size:16px;
+    font-weight: 300;
+}
+
+.approch ul{
+    margin-left: 30px;
+}
+.approch li{
+    font-size:16px;
+}
+
+.services{
+    margin-bottom: 50px;
+    max-width: 100%;
+    text-align: left;
+    position: relative;
+}
+ .services::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 45%;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/orangedot2.png") no-repeat center ;
+    background-size:contain;
+    z-index: -10;
+    opacity: 0.3;
+    filter: blur(5px);
+    scale: 1.7;
+  } 
+.services h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+.services h3{
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 25px;
+}
+.services p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;
+}
+.p{
+  margin-bottom: 30px;
+}
+.services ul {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  padding-left: 27px;
+}
+
+
+.team{
+    margin-bottom: 50px;
+    max-width: 100%;
+    text-align: left;
+}
+ .team::before {
+    content: "";
+    position: absolute;
+    top: 1400px;
+    left: -25%;
+    width: 40%;
+    height: 100%;
+    background: url("../assets/orangedot2.png") no-repeat center ;
+    background-size:contain;
+    z-index: -10;
+    opacity: 0.3;
+    filter: blur(5px);
+    scale: 2.2;
+    transform: rotate(-270deg);
+  }
+ 
+.team h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 16px;
+  }
+  
+.team ul {
+    font-size: 16px;
+    color: #222;
+    line-height: 1.5;
+    padding-left: 20px;
+
+  }
+  
+  .mission {
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 69%;
+  }
+  
+  .callToAction {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .pointer{
+    max-width: 35px;
+    min-height:30px;
+    margin-right: 7px;
+  }
+  .pointer img{
+    width: 100%;
+    height: 100%;
+  }
+  .join{
+    font-size: 16px;
+    font-weight: 400;
+    width: 36%;
+  }
+
+  @media(max-width:768px){
+
+    .container{
+      padding:0rem;
+      max-width: 100%;
+    }
+    .hero{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      max-width: 100%;
+    }
+    .hero::before {    
+      content: "";
+      position: absolute;
+      top: -100px;
+      left: -9%;
+      width: 45%;
+      height: 60%;
+      background: url("../assets/orangedot2.png") no-repeat center ;
+      background-size:contain;
+      z-index: -10;
+      opacity: 0.8;
+      filter: blur(0px);
+      scale: 2.45;
+      transform: rotate(270deg);
+  } 
+  .approch::before {
+    display: none;
+  }
+  .services::before{
+    display: none;
+  }
+  .team::before{
+    display: none;
+  }
+
+    .commitment{
+      order: 1;
+      max-width: 70%;
+    }
+    .imgcontainer{
+      order: -1;
+      max-width: 480px;
+      min-height: 360px;
+    }
+    .imgcontainer img{
+      scale: 1.1;
+    }
+    .approch,.services,.team{
+      max-width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .approch p, .approch h3,.approch ul{
+      max-width: 70%;
+    }
+    .approch li{
+      margin-left: 10px;
+    }
+    .services h2,.services h3,.services p,.services ul{
+      max-width: 70%;
+    }
+    .team h2,.team p,.team ul{
+      max-width: 70%;
+    }
+    .callToAction{
+      width: 85%;
+    }
+    .join{
+      width: 70%;
+    }
+    .join p{
+      width: 100%;
+    }
+  }
+
+  @media(max-width:699px){
+    .commitment h1{
+      font-size: 45px;
+      
+    }
+    .hero::before {    
+      content: "";
+      position: absolute;
+      top: -250px;
+      left: -27%;
+      width: 45%;
+      height: 60%;
+      background: url("../assets/orangedot2.png") no-repeat center ;
+      background-size:contain;
+      z-index: -10;
+      opacity: 0.8;
+      filter: blur(0px);
+      scale: 1.5;
+      transform: rotate(270deg);
+  } 
+    .imgcontainer{
+      max-width: 420px;
+      min-height: 300px;
+      
+    }
+    .imgcontainer img{
+      scale: 1.1;
+    }
+    .join{
+      width: 80%;
+    }
+  }
+
+  @media(max-width:466px){
+   
+    .hero::before {    
+      content: "";
+      position: absolute;
+      top: -250px;
+      left: -20%;
+      width: 55%;
+      height: 55%;
+      background: url("../assets/orangedot2.png") no-repeat center ;
+      background-size:contain;
+      z-index: -10;
+      opacity: 0.8;
+      filter: blur(0px);
+      scale: 1.1;
+      transform: rotate(270deg);
+  } 
+  .commitment h1{
+    font-size: 37px;
+  }
+  .approch h2, .service h2, .team h2{
+    font-size: 35px;
+  }
+  .imgcontainer{
+    align-self: flex-start;
+    max-width: 345px;
+    min-height: 250px;
+  }
+  .imgcontainer img{
+    scale: 1.15;
+  }
+  .join{
+    width:100%;
+  }
+  }
+
+  @media(max-width:374px){
+    .imgcontainer{
+      display: flex;
+      max-width: 300px;
+      max-height: 250px;
+    }
+    .hero::before {    
+      content: "";
+      position: absolute;
+      top: -270px;
+      left: -40%;
+      width: 100%;
+      height: 55%;
+      background: url("../assets/orangedot2.png") no-repeat center ;
+      background-size:contain;
+      z-index: -100;
+      opacity: 0.8;
+      filter: blur(0px);
+      scale: 1;
+      transform: rotate(270deg);
+  } 
+  .callToAction{
+    width: 100%;
+  }
+  }
