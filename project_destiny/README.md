@@ -2,21 +2,21 @@
 
 **Destiny** is a professionally crafted website designed to support a local school's mission through storytelling, awareness, and online fundraising. The platform highlights the school's vision, needs, and ongoing initiatives to attract donors and supporters.
 
-## 🎯 Purpose
+## Purpose
 
 The primary goal of Destiny is to raise funds for educational development by:
 - Showcasing the school's mission and impact
 - Making it easy for donors to contribute
 - Building trust through transparent information
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Frontend Framework**: Vite
 - **JavaScript/TypeScript**
 - **Tailwind CSS** for styling
 - **Node.js & npm** (for dependency management)
 
-## 📁 Project Structure
+## Project Structure
 
 project_destiny/
 ├── dist/ # Production build output
@@ -28,7 +28,7 @@ project_destiny/
 ├── .gitignore
 ├── README.md
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Install dependencies
@@ -40,7 +40,7 @@ npm run dev
 # run
 o
 
-💡 Features
+Features
 Fully responsive design
 Compelling visuals and messaging
 Fast-loading with modern tooling (Vite)
